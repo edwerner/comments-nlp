@@ -11,6 +11,6 @@ import com.comments.nlp.utilities.Strings;
 public class Main {
 
   public static void main(String[] args) {
-      new CommentsReader(Strings.SPRING_SOURCE);
+      new CommentsReader(Strings.APACHE_ANT_SOURCE);
   }
 }

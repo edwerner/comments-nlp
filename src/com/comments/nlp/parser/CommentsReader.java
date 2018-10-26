@@ -42,7 +42,7 @@ public class CommentsReader {
         String file = f.getAbsolutePath().toString();
         if (file.endsWith(".java")) {
           try {
-            System.out.println(counter);
+//            System.out.println(counter);
             openFile(file);
             counter++;
           } catch (FileNotFoundException e) {
@@ -69,7 +69,7 @@ public class CommentsReader {
 
     // Create a pattern object
     Pattern p = Pattern.compile(pattern);
-    BufferedWriter writer = new BufferedWriter(new FileWriter(Strings.JAVA_COMMENTS));
+//    BufferedWriter writer = new BufferedWriter(new FileWriter(Strings.JAVA_COMMENTS));
     
     try {
       while ((line = bufferedReader.readLine()) != null) {
@@ -85,11 +85,11 @@ public class CommentsReader {
           
           
           // Write line to file
-          writer.write(line);
+//          writer.write(line);
         }
       }
       bufferedReader.close();
-      writer.close();
+//      writer.close();
     } catch (Exception e) {
       e.printStackTrace();
     }
