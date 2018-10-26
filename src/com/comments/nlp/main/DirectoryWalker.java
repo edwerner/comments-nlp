@@ -14,6 +14,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import org.eclipse.jdt.core.dom.ASTParser;
 
 import com.comments.nlp.utilities.Strings;
 
